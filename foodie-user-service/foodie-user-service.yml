@@ -1,0 +1,12 @@
+management:
+  security:
+    # actuator 暴露接口
+    enabled: false
+  # 配置监控暴露属性
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
