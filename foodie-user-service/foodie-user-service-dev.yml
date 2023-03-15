@@ -1,0 +1,11 @@
+# 数据库连接串
+maridb: 
+  url: 'jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true'
+  password: root
+  # 加密字符串
+  #password: '{cipher}XXXXXXXXXXXX'
+  
+# 功能开关
+userservice: 
+  registeration: 
+    disabled: true
